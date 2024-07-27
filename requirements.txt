@@ -1,0 +1,6 @@
+streamlit
+google-generativeai
+llama-index
+streamlit-chat
+llama_index.embeddings.gemini
+llama_index.llms.gemini
