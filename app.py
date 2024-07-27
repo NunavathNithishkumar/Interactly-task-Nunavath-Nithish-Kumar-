@@ -9,6 +9,14 @@ from llama_index.core.memory import ChatMemoryBuffer
 import os
 
 st.set_page_config(page_title="Job-profile_matcher", page_icon=":briefcase:")
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # Set up the models and configurations
 model = genai.GenerativeModel(model_name="models/gemini-pro")
