@@ -8,7 +8,7 @@ from llama_index.core.node_parser import SentenceSplitter
 from llama_index.core.memory import ChatMemoryBuffer
 import os
 
-st.set_page_config(page_title="GTU Chat", page_icon=":speech_balloon:")
+st.set_page_config(page_title="Job-profile_matcher", page_icon=":bag:")
 
 # Set up the models and configurations
 model = genai.GenerativeModel(model_name="models/gemini-pro")
