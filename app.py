@@ -19,7 +19,7 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # Set up the models and configurations
-model = genai.GenerativeModel(model_name="models/gemini-pro")
+model = genai.GenerativeModel(model_name="models/gemini-2.0-flash")
 os.environ["GOOGLE_API_KEY"] = "AIzaSyCX3h6oMLzRtYronmp07eZX8xIYhVJFy5A"
 gemini_embedding_model = GeminiEmbedding(model_name="models/embedding-001")
 llm = Gemini(model_name="models/gemini-pro")
